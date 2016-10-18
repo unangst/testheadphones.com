@@ -75,8 +75,18 @@ hr.star-light, hr.star-primary, hr.check-square-o {
 
 }
 
-hr.star-light:after, hr.star-primary:after, hr.check-square-o:after {
+hr.star-light:after, hr.star-primary:after {
     content: "\f005";
+    font-family: FontAwesome;
+    display: inline-block;
+    position: relative;
+    top: -.8em;
+    font-size: 3em;
+    padding: 0 .25em
+}
+
+hr.check-square-o:after {
+    content: "\f046";
     font-family: FontAwesome;
     display: inline-block;
     position: relative;
@@ -105,7 +115,7 @@ hr.check-square-o {
 
 hr.check-square-o {
     background-color: #ffffff;
-    color: #d93132
+    color: #00BBFA
 }
 
 hr.star-primary {
