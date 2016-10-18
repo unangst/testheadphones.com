@@ -33,7 +33,7 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: 700
 }
 
-hr.star-light, hr.star-primary {
+hr.star-light, hr.star-primary, hr.check-square-o {
     padding: 0;
     border: none;
     border-top: solid 5px;
@@ -43,7 +43,27 @@ hr.star-light, hr.star-primary {
 
 }
 
-hr.star-light:after, hr.star-primary:after {
+hr.star-light:after, hr.star-primary:after, hr.check-square-o:after {
+    content: "\f005";
+    font-family: FontAwesome;
+    display: inline-block;
+    position: relative;
+    top: -.8em;
+    font-size: 3em;
+    padding: 0 .25em
+}
+
+hr.star-light, hr.star-primary, hr.check-square-o {
+    padding: 0;
+    border: none;
+    border-top: solid 5px;
+    text-align: center;
+    max-width: 250px;
+    margin: 25px auto 30px;
+
+}
+
+hr.star-light:after, hr.star-primary:after, hr.check-square-o:after {
     content: "\f005";
     font-family: FontAwesome;
     display: inline-block;
