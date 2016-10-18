@@ -87,6 +87,15 @@ hr.star-light:after {
     color: #d93132
 }
 
+hr.check-square-o {
+    border-color: #fff
+}
+
+hr.check-square-o {
+    background-color: #ffffff;
+    color: #d93132
+}
+
 hr.star-primary {
     border-color: #2a7ab9
 }
