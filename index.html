@@ -28,16 +28,7 @@
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
-	
-	var playBtn = document.getElementById('play');
-var stopBtn = document.getElementById('stop');
 
-var playSound = function() {
-	audio.play();
-};
-
-playBtn.addEventListener('click', playSound, false);
-stopBtn.addEventListener('click', function(){audio.pause()}, false);
 
 </head>
 
@@ -109,6 +100,17 @@ showQuotation();
     <audio id="audio" src="http://www.sousound.com/music/healing/healing_01.mp3" preload="auto"  ></audio>
 		<button id="play">Play</button>
 		<button id="stop">Stop</button>
+	
+		
+	var playBtn = document.getElementById('play');
+var stopBtn = document.getElementById('stop');
+
+var playSound = function() {
+	audio.play();
+};
+
+playBtn.addEventListener('click', playSound, false);
+stopBtn.addEventListener('click', function(){audio.pause()}, false);
     
     
 <a href="https://youtube.com">YouasfsdfTube</a>  
