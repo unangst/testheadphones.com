@@ -97,21 +97,23 @@ showQuotation();
                             <div class="col-lg-6 col-centered"><br>
 <span class="skills">Popular destinations: <br>
     
-    <audio id="audio" src="http://www.sousound.com/music/healing/healing_01.mp3" preload="auto"  ></audio>
-		<button id="play">Play</button>
-		<button id="stop">Stop</button>
-	
-		
-	var playBtn = document.getElementById('play');
-var stopBtn = document.getElementById('stop');
 
+	
+<script>	
+var playBtn = document.getElementById('play');
+var stopBtn = document.getElementById('stop');
 var playSound = function() {
 	audio.play();
 };
 
 playBtn.addEventListener('click', playSound, false);
 stopBtn.addEventListener('click', function(){audio.pause()}, false);
-    
+
+</script>  
+	
+<audio id="audio" src="http://www.sousound.com/music/healing/healing_01.mp3" preload="auto"  ></audio>
+<button id="play">Play</button>
+<button id="stop">Stop</button>
     
 <a href="https://youtube.com">YouasfsdfTube</a>  
 <a href="https://netflix.com">Netasdfsdfflix</a>  
