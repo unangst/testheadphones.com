@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="Eric Unangst">
 
-    <title>Filter Override</title>
+    <title>Test Headphones</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -38,8 +38,8 @@
         <div class="container">
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header page-scroll">
-                <a class="navbar-brand" href="#page-top">FilterOverride.com</a><br>
-               The simple filter override landing page.
+                <a class="navbar-brand" href="#page-top">TestHeadphones.com</a><br>
+               The simple headphone test page.
             </div>
 
         </div>
@@ -90,7 +90,28 @@ function showQuotation(){document.write(Quotation[whichQuotation]);}
 showQuotation();
 </script>    
 </span>
-                          
+	
+  	  <h1>Test Headphones</h1>
+  <p>Click 'play' button to check your headphones.</p>
+  <div>
+    <audio id="audio" src="http://www.sousound.com/music/healing/healing_01.mp3" preload="auto"></audio>
+    <button id="play">Play</button>
+    <button id="stop">Stop</button>
+  </div>
+	<script>
+	var playBtn = document.getElementById('play');
+var stopBtn = document.getElementById('stop');
+
+var playSound = function() {
+  audio.play();
+};
+
+playBtn.addEventListener('click', playSound, false);
+stopBtn.addEventListener('click', function() {
+  audio.pause()
+}, false);
+	</script>
+	
     <hr class="check-square-o">                        
                           <div class="row evidence">
                             <div class="col-lg-6 col-centered"><br>
@@ -114,26 +135,7 @@ showQuotation();
         </div>
     </header>
 	
-	  <h1>Audio Test</h1>
-  <p>Simple example</p>
-  <div>
-    <audio id="audio" src="http://www.sousound.com/music/healing/healing_01.mp3" preload="auto"></audio>
-    <button id="play">Play</button>
-    <button id="stop">Stop</button>
-  </div>
-	<script>
-	var playBtn = document.getElementById('play');
-var stopBtn = document.getElementById('stop');
 
-var playSound = function() {
-  audio.play();
-};
-
-playBtn.addEventListener('click', playSound, false);
-stopBtn.addEventListener('click', function() {
-  audio.pause()
-}, false);
-	</script>
 	
 	    <!-- Footer -->
     <footer class="text-center">
