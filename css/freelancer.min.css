@@ -244,7 +244,7 @@ header .intro-text .skills {
 }
 
 section {
-    padding: 100px 0
+    padding: 20px 0
 }
 
 section h2 {
@@ -392,7 +392,7 @@ footer h3 {
 }
 
 footer .footer-above {
-    padding-top: 50px;
+    padding-top: 20px;
     background-color: #2a7ab9
 }
 
@@ -578,7 +578,7 @@ footer .footer-below {
 .navbar-brand {float:none;}
 
 .evidence {
-    margin-bottom:40px;
+    margin-bottom:20px;
 }
 
 header .intro-text .skills.demandproof  {
