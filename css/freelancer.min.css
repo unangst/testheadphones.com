@@ -9,6 +9,17 @@ body {
     overflow-x: hidden
 }
 
+body2 {
+    font-family: Lato, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    overflow-x: hidden
+}
+body3 {
+    padding-top: 100px;
+    padding-bottom: 5px;
+    color: #000000;
+}
+
+
 p {
     font-size: 20px
 }
@@ -576,6 +587,7 @@ footer .footer-below {
     width: 100%;
 }
 .navbar-brand {float:none;}
+}
 
 .evidence {
     padding-top: 100px;
